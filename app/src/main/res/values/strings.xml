@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Frontend Android App</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="name_at_address_dot_com">name@address.com</string>
+    <string name="remember_me_for_30_days">Remember me for 30 days</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">or</string>
+    <string name="don_t_have_an_account_yet">Don\'t have an account yet?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="welcome">Welcome</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
 </resources>
