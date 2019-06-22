@@ -6,4 +6,5 @@
     <color name="colorSecondary">#E83E8C</color>
     <color name="colorSecondaryDark">#B1005F</color>
     <color name="colorSecondaryLight">#FF74BC</color>
+    <color name="colorStarYellow">#FFC107</color>
 </resources>
