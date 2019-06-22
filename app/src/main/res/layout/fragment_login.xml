@@ -6,7 +6,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        tools:context=".LoginFragment">
 
         <TextView
             android:id="@+id/tvWelcome"
@@ -17,6 +17,7 @@
             android:fontFamily="@font/poppins_bold"
             android:text="@string/welcome"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="30sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -109,20 +110,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="@string/facebook"
-            app:layout_constraintBottom_toTopOf="@+id/btGoogleConnect"
             app:layout_constraintEnd_toEndOf="@+id/btSignIn"
             app:layout_constraintStart_toStartOf="@+id/btSignIn"
             app:layout_constraintTop_toBottomOf="@+id/tvOr"
             app:layout_constraintVertical_chainStyle="packed" />
-
-        <Button
-            android:id="@+id/btGoogleConnect"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@string/google"
-            app:layout_constraintEnd_toEndOf="@+id/btFacebookConnect"
-            app:layout_constraintStart_toStartOf="@+id/btFacebookConnect"
-            app:layout_constraintTop_toBottomOf="@+id/btFacebookConnect" />
 
         <EditText
             android:id="@+id/etEmail"
@@ -192,6 +183,6 @@
             android:background="?android:attr/listDivider"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btGoogleConnect" />
+            app:layout_constraintTop_toBottomOf="@+id/btFacebookConnect" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
